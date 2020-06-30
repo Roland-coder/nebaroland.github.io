@@ -7,7 +7,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(4 1fr);
   grid-template-rows: repeat(4 1fr);
-  height: 90vh;
+  height: 100vh;
   text-align: center;
   padding-top: 15em;
 }
