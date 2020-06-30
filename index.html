@@ -1,46 +1,88 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Responsive</title>
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<h1>Our Menu</h1>
-	<div class="row">
-		<div class="container col-lg-4 col-md-6">
-			<section>
-			<div id="chicken">
-				Chicken
-			</div>
-			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            </p>
-			</section>
-		</div>
-  		<div class="container col-lg-4 col-md-6">
-  			<section>
-			<div id="beef">
-				Beef
-			</div>
-			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Neba's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    </head>
+    <body id="top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+            <div class="container">
+                <a class="navbar-brand" href="#" style = "color: white"><h3>NEBA</h3></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><h4 style="color: white;">Home </h4><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about"><h4>About</h4></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#services"><h4>Resume</h4></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><h4>Projects</h4></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><h4>Contact</h4></a>
+                    </li>
+                    
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
 
-			</section>
-  		</div>
-  		<div class="container col-lg-4 col-md-12">
-  			<section>
-			<div id="sushi">
-				Sushi
-			</div>
-			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-
-			</section>
-  		</div>
-  	</div>
-	</body>
-	</html>
+          <section id="header">
+              <div class="container">
+              <aside>
+                  <h1 class="text-danger pt-10">NEBA ROLAND NGWA</h1>
+                  <h2>Aspiring Data Scientist | Junior Software engineer</h2>
+              </aside>
+            </div>
+          </section>
+          <section id="interests">
+            <div class="container py-5" style="text-align: center;">
+                <h2>Interests</h2>
+            </div>
+            <div class="container py-2 myGrid">
+                
+                <div class="card mx-2">
+                    <div class="card-body mySubGrid">
+                        <img class="img-fluid border border-dark" src="images/datascience.jpg" alt="Data Science ">
+                        <aside>
+                            <h2>Data Science</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </aside>
+                    </div>
+                </div>
+                <div class="card mx-2">
+                    <div class="card-body mySubGrid">
+                        <img class="img-fluid border border-dark" src="images/software.jpg" alt="Software Engineering">
+                        <aside>
+                            <h2>Software Engineering</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </aside>
+                    </div>
+                </div>
+                <div class="card mx-2">
+                    <div class="card-body mySubGrid">
+                        <img class="img-fluid border border-dark" src="images/cloud.jpg" alt="Cloud Computing ">
+                        <aside>
+                            <h2>Cloud Computing</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+          </section>
+    </body>
+</html>
